@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3 text-center">
+      <div class="card">
+        <h3><%=@question%></h3>
+        <p>- You</p>
+
+        <h3><%=@coach_answer%></h3>
+        <p>- The Coach</p>
+
+        <%= link_to "Give me another question", ask_path %>
+      </div>
+    </div>
+  </div>
+</div>
